@@ -1,0 +1,129 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dz1 {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.pAgeUser{
+  position: relative;
+  top: -30px;
+}
+.pContactUser{
+  position: relative;
+  top: -50px;
+}
+.ulUserContact{
+  position: relative;
+  top: -65px;
+  padding-left: 80px;
+}
+.imgUser img{
+  position: relative;
+  top: -280px;
+  border-radius: 30px;
+  width: 120px;
+  left: 210px;
+  height: auto;
+}
+.h3skills{
+  position: relative;
+  top: -210px;
+}
+.ulSkills{
+  position: relative;
+  top: -240px;
+  left: 40px;
+}
+.ulSkills li{
+  position: absolute;
+  padding: 0;
+}
+
+.dz2 {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  padding-right: 0;
+}
+.h1NameCat{
+  position: relative;
+  top: -58px;
+  left: 110px;
+}
+.pPoroda{
+  position: relative;
+  top: -100px;
+}
+.h3Poroda{
+  position: relative;
+  top: -43px;
+  left: 110px;
+}
+.pColor{
+  position: relative;
+  top: -83px;
+  left: 240px;
+}
+.pAgeCat{
+  position: relative;
+  top: -230px;
+}
+.imgCat{
+  position: relative;
+  top: -230px;
+}
+.line{
+  height: 100vh;
+  position: relative;
+  left: -30px;
+  transform: rotate(180deg);
+  border-right: black 1px solid;
+}
